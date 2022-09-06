@@ -19,7 +19,7 @@ end
 
 local function OnTriggerInteracted(trigger, other)
 	if other == LOCAL_PLAYER then
-		Events.BroadcastToServer("DisbableCrouch")
+		Events.BroadcastToServer("DisableCrouch")
 
 		UI.SetCanCursorInteractWithUI(true)
 		UI.SetCursorVisible(true)

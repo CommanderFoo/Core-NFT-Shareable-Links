@@ -1,5 +1,4 @@
 local function DisableCrouch(player)
-	print(1)
 	player.isCrouchEnabled = false
 end
 
